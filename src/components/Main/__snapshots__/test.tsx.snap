@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main/> snapshot is match 1`] = `
+<main
+  class="styles__Wrapper-heyFP xXCWS"
+>
+  <img
+    alt="Atom illustration representing react framework"
+    class="styles__Logo-bSryDj kvMBXl"
+    src="img/logo.svg"
+  />
+  <h1
+    class="styles__Title-cLvJfs eQmsKe"
+  >
+    NextJS Boilerplate
+  </h1>
+  <h2
+    class="styles__Description-elWOBK bEakSu"
+  >
+    TypeScript, ReactJS, NextJS and Styled-Components
+  </h2>
+  <img
+    alt="Programmer in front of code blocks"
+    class="styles__Illustration-fyJZJM cSFNml"
+    src="img/hero-illustration.svg"
+  />
+</main>
+`;
