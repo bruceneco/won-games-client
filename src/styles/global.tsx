@@ -53,8 +53,8 @@ const GlobalStyles = createGlobalStyle`
     }
   `}
 
-`;
+`
 
-import { createGlobalStyle, css } from "styled-components";
+import { createGlobalStyle, css } from 'styled-components'
 
-export default GlobalStyles;
+export default GlobalStyles

@@ -1,8 +1,8 @@
-import * as S from "./styles";
+import * as S from './styles'
 
 const Main = ({
-  title = "NextJS Boilerplate",
-  description = "TypeScript, ReactJS, NextJS and Styled-Components"
+  title = 'NextJS Boilerplate',
+  description = 'TypeScript, ReactJS, NextJS and Styled-Components'
 }): JSX.Element => (
   <S.Wrapper>
     <S.Logo
@@ -16,6 +16,6 @@ const Main = ({
       alt="Programmer in front of code blocks"
     />
   </S.Wrapper>
-);
+)
 
-export default Main;
+export default Main

@@ -1,28 +1,72 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main/> snapshot is match 1`] = `
+.c0 {
+  background: #06092b;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3rem;
+  text-align: center;
+}
+
+.c1 {
+  width: 25rem;
+}
+
+.c2 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+
+.c4 {
+  width: min(30rem,100%);
+  margin-top: 3rem;
+}
+
 <main
-  class="styles__Wrapper-heyFP xXCWS"
+  class="c0"
 >
   <img
     alt="Atom illustration representing react framework"
-    class="styles__Logo-bSryDj kvMBXl"
+    class="c1"
     src="img/logo.svg"
   />
   <h1
-    class="styles__Title-cLvJfs eQmsKe"
+    class="c2"
   >
     NextJS Boilerplate
   </h1>
   <h2
-    class="styles__Description-elWOBK bEakSu"
+    class="c3"
   >
     TypeScript, ReactJS, NextJS and Styled-Components
   </h2>
   <img
     alt="Programmer in front of code blocks"
-    class="styles__Illustration-fyJZJM cSFNml"
+    class="c4"
     src="img/hero-illustration.svg"
   />
 </main>
-`;
+`
