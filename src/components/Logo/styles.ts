@@ -18,6 +18,7 @@ const wrapperModifiers = {
       color: "red";
       svg {
         height: 4.5rem;
+        pointer-events: none;
       }
 
       .text {
